@@ -109,7 +109,7 @@ IOPS: number of $4KB$ data I/O per second
 
 $64$ entries for each aio queue
 
-![fig](\visualize\fig.jpg)
+![fig](visualize/fig.jpg)
 
 In conclusion, io_uring generally outperforms other IO methods in all types of IO tasks. 
 
@@ -147,7 +147,7 @@ latency for libaio IO read: 11.6784 ms
 latency for libaio IO write: 11.676 ms
 ```
 
-![fig2](visualize\fig2.jpg)
+![fig2](visualize/fig2.jpg)
 
 Average latency for totally $64$ reads and  $64$ writes
 
